@@ -16,7 +16,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === ' يومي'){
+    if(message.content === 'يومي'){
         message.channel.send('#daily')
     }
 });
