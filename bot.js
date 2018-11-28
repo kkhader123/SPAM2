@@ -16,37 +16,37 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-راتب 2'){
         message.channel.send('#daily')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '- مبلغ 2'){
         message.channel.send('#credits')
     }
 });
 
 client.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '-ريب 2'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-راتب 2'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-مبلغ 2'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
+    if(message.content === '-ريب 2'){
         message.channel.send('#credits')
     }
 });
